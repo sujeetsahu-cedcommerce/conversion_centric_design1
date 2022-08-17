@@ -4,7 +4,7 @@
     float:right;
 }
 .circle{
-    border: 2px solid gray;
+    border: 2px solid rgb(224, 215, 215);
     width: 10vw;
     height: 10vw;
     border-radius:50%;
@@ -22,7 +22,7 @@
     place-items: center;
 /* text-align: center; */
 /* border: 1px solid black; */
-margin-top: -20px;
+   margin-top: 20px;
 }
 
 .bottom_container_heading{

@@ -8,7 +8,8 @@ function Navbar() {
       <AppBar style={{backgroundColor:"#1284EB"}}>
         <Toolbar>
           <Typography variant="h6" style={{ flexGrow: "8" }}>
-            <i style={{ fontWeight: "bolder", fontSize: "3vw" }}>Adespresso</i>
+            {/* <i style={{ fontWeight: "bolder", }}>Adespresso</i> */}
+            <img src="Aed-removebg-preview.png" alt="" style={{width:"20vw"}}/>
           </Typography>
 
           <div

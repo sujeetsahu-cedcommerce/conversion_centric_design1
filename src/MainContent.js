@@ -1,6 +1,8 @@
 import React from "react";
 import { Typography, Box, Button } from "@mui/material";
 import "./MainContent.css";
+import DvrIcon from "@mui/icons-material/Dvr";
+import { Collections, LibraryBooks, Science } from "@mui/icons-material";
 function MainContent() {
   return (
     <div style={{ marginTop: "65px" }}>
@@ -17,7 +19,7 @@ function MainContent() {
         >
           <Typography
             variant="text"
-            sx={{ fontWeight: "bold", fontSize: "4.5vw" ,color:"gray"}}
+            sx={{ fontWeight: "bold", fontSize: "4.5vw", color: "gray" }}
           >
             Pinpoint Your Ideal Client
           </Typography>
@@ -30,7 +32,7 @@ function MainContent() {
             fontSize: "2vw",
           }}
         >
-          <Typography variant="text" style={{color:"gray"}}>
+          <Typography variant="text" style={{ color: "gray" }}>
             Find the right audience for your Facebook, Instagram, AND Google ads
             with AdEspresso’s split testing and optimization. Claim your free
             14-day trial of AdEspresso now.
@@ -49,10 +51,7 @@ function MainContent() {
           </Button>
         </div>
         <div className="logo_joker" style={{ flexGrow: "0.5" }}>
-          <img
-            src="joker.svg"
-            alt="joker"
-          />
+          <img src="joker.svg" alt="joker" />
         </div>
       </div>
       <div
@@ -62,7 +61,9 @@ function MainContent() {
         <div style={{ display: "flex" }}>
           <div className="bottom_container">
             <div className="circle">
-              <i class="fa-solid fa-book"></i>
+              <i>
+                <LibraryBooks sx={{fontSize:"6vw"}}/>
+              </i>
             </div>
             <h4 className="bottom_container_heading">Video Courses</h4>
             <p className="bottom_container_para">
@@ -73,9 +74,11 @@ function MainContent() {
           </div>
           <div className="bottom_container">
             <div className="circle">
-              <i class="fa-solid fa-book"></i>
+              <i>
+                <DvrIcon sx={{fontSize:"6vw"}}/>
+              </i>
             </div>
-            <h4 className="bottom_container_heading">Video Courses</h4>
+            <h4 className="bottom_container_heading">Live Webinars</h4>
             <p className="bottom_container_para">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
@@ -84,9 +87,12 @@ function MainContent() {
           </div>
           <div className="bottom_container">
             <div className="circle">
-              <i class="fa-solid fa-book"></i>
+              {/* <i class="fa-solid fa-book"></i> */}
+              <i>
+                <Collections sx={{fontSize:"6vw"}}/>
+              </i>
             </div>
-            <h4 className="bottom_container_heading">Video Courses</h4>
+            <h4 className="bottom_container_heading">Ad Gallery</h4>
             <p className="bottom_container_para">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
@@ -95,9 +101,12 @@ function MainContent() {
           </div>
           <div className="bottom_container">
             <div className="circle">
-              <i class="fa-solid fa-book"></i>
+              {/* <i class="fa-solid fa-book"></i> */}
+              <i>
+                <Science sx={{fontSize:"6vw"}}/>
+              </i>
             </div>
-            <h4 className="bottom_container_heading">Video Courses</h4>
+            <h4 className="bottom_container_heading">Experiments</h4>
             <p className="bottom_container_para">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
